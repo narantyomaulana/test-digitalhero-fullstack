@@ -25,7 +25,7 @@ class Booking extends Model
         'booking_date' => 'date',
     ];
 
-    // Relationships
+
     public function service()
     {
         return $this->belongsTo(Service::class);
